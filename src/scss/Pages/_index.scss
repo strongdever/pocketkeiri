@@ -1,0 +1,79 @@
+.contact-page {
+    .sub-mainview {
+        margin-top: 11.4rem;
+        padding: 6.4rem 0;
+        text-align: center;
+        background: #2175D6;
+
+        .head-text {
+            margin-bottom: 2.4rem;
+            color: #FFF;
+        }
+
+        .description {
+            line-height: 3.2rem;
+            color: #FFF;
+        }
+    }
+
+    .form-section {
+        padding-top: 5.6rem;
+        margin-bottom: 14.6rem;
+
+        form {
+            ul {
+                margin: 0 auto;
+                max-width: 56rem;
+
+            }
+            .bottom-desc {
+                margin: 4.0rem 0 0 0;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.contact-thanks-page {
+    .head-text {
+        width: fit-content;
+        margin: 20.2rem auto 3.2rem auto;
+    }
+
+    .description {
+        width: fit-content;
+        margin: 0 auto 4.0rem auto;
+        line-height: 3.2rem;
+        text-align: center;
+    }
+
+    .desc {
+        text-align: left;
+        margin: 0 auto 5.6rem auto;
+        width: fit-content;
+        line-height: 3.2rem;
+    }
+
+    .btn-black {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+.contact-mail {
+    .content {
+        text-align: center;
+        padding-top: 5.2rem;
+
+        .description {
+            margin-bottom: 5.2rem;
+        }
+
+        .btn-black {
+            margin: 5.2rem auto 0 auto;
+            padding: 0 4.0rem;
+            width: fit-content;
+            height: 5.0rem;
+        }
+    }
+}
