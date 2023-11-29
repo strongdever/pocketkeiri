@@ -96,32 +96,35 @@
 
 .btn-black.btn {
     background: #333;
-    border: 3px solid #333;
     height: 6.4rem;
     padding: 1.6rem 6.4rem;
     color: #FFF;
 }
 .btn-black.btn:hover span {
-    color: #333;
     z-index: 15;
 }
 .btn-black.btn::before {
     background: #2175D6;
 }
+.btn-black.btn::after {
+    border: 3px solid #333;
+}
 
 .btn-white.btn {
     background: #fff;
-    border: 3px solid #333;
     height: 6.4rem;
     padding: 1.6rem 6.4rem;
     color: #333;
 }
 .btn-white.btn:hover span {
-    color: #333;
+    color: #FFF;
     z-index: 15;
 }
 .btn-white.btn::before {
     background: #2175D6;
+}
+.btn-white.btn::after {
+    border: 3px solid #333;
 }
 
 .btn-faq.btn {

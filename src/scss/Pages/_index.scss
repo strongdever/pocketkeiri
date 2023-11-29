@@ -1,6 +1,5 @@
 .contact-page {
     .sub-mainview {
-        margin-top: 11.4rem;
         padding: 6.4rem 0;
         text-align: center;
         background: #2175D6;
@@ -18,7 +17,6 @@
 
     .form-section {
         padding-top: 5.6rem;
-        margin-bottom: 14.6rem;
 
         form {
             ul {
@@ -27,17 +25,21 @@
 
             }
             .bottom-desc {
-                margin: 4.0rem 0 0 0;
+                width: fit-content;
+                margin: 4.0rem auto 0 auto;
                 text-align: left;
+                line-height: 2.8rem;
             }
         }
     }
 }
 
 .contact-thanks-page {
+    padding-top: 4.0rem;
+    min-height: calc(100vh - 11.4rem - 12.8rem);
     .head-text {
         width: fit-content;
-        margin: 20.2rem auto 3.2rem auto;
+        margin: 0 auto 3.2rem auto;
     }
 
     .description {

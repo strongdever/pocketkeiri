@@ -28,6 +28,7 @@ header {
         }
         .header-logo {
             img {
+                width: 24rem;
                 @include media("sp") {
                     padding: 1.4rem 1.6rem;
                     width: 10.1rem;

@@ -38,8 +38,8 @@
 				<div class="container">
 					<h2 class="head-text font-32-700">お問い合わせ</h2>
 					<p class="font-18-500 description">
-						この度は、ポケット経理請求支払の導入をご検討いただきまして誠にありがとうございます。<br>
-						本サービスについてご質問等ございましたら、こちらよりお問い合わせください。
+						ポケット経理と請求支払の間に半角スペースを入れてください。<br><br>
+						「ポケット経理 請求支払」
 					</p>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 					<form id="contactForm" class="main-form">
 						<ul class="form-wrapper">
 							<li class="vertical-wrapper name-wrapper">
-								<label for="name" class="font-16-700">お名前</label>
+								<label for="name" class="font-16-700 required">お名前</label>
 								<div class="input-wrapper horizontal-wrapper">
 									<input type="text" name="lastname" id="lastname" class="sub-input input font-16-400"
 										size="60" value="" placeholder="姓" />
@@ -57,12 +57,12 @@
 								</div>
 							</li>
 							<li class="vertical-wrapper">
-								<label for="company" class="font-16-700">会社名</label>
+								<label for="company" class="font-16-700 required">会社名</label>
 								<input type="text" name="company" id="company" class="input whole-length font-16-400" size="60" value=""
-									placeholder="株式会社MJS Finance & Technology" />
+									placeholder="株式会社ミロク情報サービス" />
 							</li>
 							<li class="vertical-wrapper">
-								<label for="email" class="font-16-700">メールアドレス</label>
+								<label for="email" class="font-16-700 required">メールアドレス</label>
 								<input type="text" name="email" id="email" class="input whole-length font-16-400" size="60" value=""
 									placeholder="email@example.com" />
 							</li>
@@ -72,7 +72,7 @@
 									placeholder="03-5315-0421" />
 							</li>
 							<li class="vertical-wrapper select-item">
-								<label for="free-comment" class="font-16-700">お問い合わせ内容</label>
+								<label for="free-comment" class="font-16-700 required">お問い合わせ内容</label>
 								<textarea name="free-comment" id="free-comment" class="input whole-length font-16-400" rows="4"
 									placeholder=""></textarea>
 							</li>
@@ -87,6 +87,7 @@
 									<option value="メールマガジン" >メールマガジン</option>
 									<option value="ダイレクトメール・チラシ" >ダイレクトメール・チラシ</option>
 									<option value="知人・取引先からの紹介" >知人・取引先からの紹介</option>
+									<option value="現在サービスを利用中" >現在サービスを利用中</option>
 									<option value="その他" >その他</option>
 								</select>
 							</li>
@@ -97,9 +98,8 @@
 							</li> -->
 						</ul>
 						<p class="font-16-400 bottom-desc">
-							※「ミロク情報サービス」では、ご記入いただいた個人情報を、お問い合わせに対するご連絡以外の目的では使用いたしません。<br>
-							※ご記入いただいた個人情報は、「ミロク情報サービス」で保有し、第三者に提供することはありません。<br>
-							※「ミロク情報サービス」の個人情報の取扱いにつきましては、運営会社の株式会社ミロク情報サービスが公開している<a class="font-16-700" href="https://www.mjs.co.jp/securitypolicy/">個人情報保護方針</a>をご確認ください。
+							お客様からお送りいただく情報は、営業活動目的（資料請求等）以外の使用はいたしません。<br>
+							尚、MJSでは<a class="font-16-700" href="https://www.mjs.co.jp/securitypolicy/">個人情報保護方針</a>を公表しております。
 						</p>
 						<div class="horizontal-wrapper btns-wrapper">
 							<a class="btn btn-black font-16-700" href="./contact-confirm.html"><span>お問い合わせ内容を確認する</span></a>
@@ -108,5 +108,9 @@
 				</div>
 			</div>
 		</main>
+
+		<footer class="footer">
+			<p class="copyright font-14-500">© MIROKU JYOHO SERVICE CO., LTD. All rights reserved.</p>
+		</footer>
 	</body>
 </html>
