@@ -83,6 +83,7 @@
     width: fit-content;
     height: 9.0rem;
     color: #333;
+
     @include media("sp") {
         width: 100%;
         height: 5.6rem;
@@ -100,12 +101,15 @@
     padding: 1.6rem 6.4rem;
     color: #FFF;
 }
+
 .btn-black.btn:hover span {
     z-index: 15;
 }
+
 .btn-black.btn::before {
     background: #2175D6;
 }
+
 .btn-black.btn::after {
     border: 3px solid #333;
 }
@@ -116,15 +120,84 @@
     padding: 1.6rem 6.4rem;
     color: #333;
 }
+
 .btn-white.btn:hover span {
     color: #FFF;
     z-index: 15;
 }
+
 .btn-white.btn::before {
     background: #2175D6;
 }
+
 .btn-white.btn::after {
     border: 3px solid #333;
+}
+
+.btn-blue.btn {
+    background: #2175D6;
+    height: 4.6rem;
+    padding: 1.5rem 4.8rem;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+.btn-blue.btn:hover {
+    background: #FFF;
+    border: 2px solid #FFF;
+}
+
+.btn-blue.btn:hover span {
+    color: #2175D6;
+    z-index: 15;
+}
+
+.btn-blue.btn::before {
+    display: none;
+}
+
+.btn-blue.btn::after {
+    border: 2px solid #FFF;
+}
+
+.btn-yellow.btn {
+    background: #FDD933;
+    height: 4.6rem;
+    padding: 1.5rem 4.8rem;
+    color: #FFF;
+    border: unset;
+    border-radius: 16px;
+    width: 32rem;
+    height: 9.8rem;
+    color: #2175D6;
+    font-family: "Noto Sans JP";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 100% */
+    letter-spacing: 0.64px;
+    text-decoration: none;
+}
+
+.btn-yellow.btn:hover {
+    text-decoration: none;
+    border: unset;
+}
+
+.btn-yellow.btn:hover span {
+    color: #2175D6;
+    z-index: 15;
+}
+
+.btn-yellow.btn::before {
+    display: none;
+    background: #FFF;
+}
+
+.btn-yellow.btn::after {
+    display: none;
+    border: unset;
 }
 
 .btn-faq.btn {
@@ -136,19 +209,23 @@
     background: #333;
     border: 3px solid #333;
     border-radius: 8px;
+
     @include media("sp") {
         height: 4.0rem;
         padding: 1.3rem 1.6rem;
     }
 }
+
 .btn-faq.btn.active {
     background: #FFF;
     color: #333;
 }
+
 .btn-faq.btn:hover span {
     color: #333;
     z-index: 15;
 }
+
 .btn-faq.btn::before {
     background: #FFF;
 }
