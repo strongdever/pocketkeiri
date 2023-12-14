@@ -289,7 +289,26 @@
                 row-gap: 0;
             }
 
+            .left-img-wrapper {
+                position: relative;
+                height: fit-content;
+                &::after {
+                    position: absolute;
+                    content: '※3';
+                    color: #000;
+                    font-family: "Inter";
+                    font-size: 1.9rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    bottom: 0;
+                    left: 0;
+                    transform: translate(120%, 112%);
+                }
+            }
+
             .left-img {
+                position: relative;
                 width: 27.8rem;
 
                 @include media('sp') {
@@ -329,10 +348,8 @@
                     }
 
                     .apps-button {
-                        width: 38.6rem;
 
                         @include media('sp') {
-                            width: 29rem;
                             margin-bottom: 2.0rem;
                         }
                     }
@@ -420,6 +437,27 @@
         .container {
             width: 82%;
             max-width: 118rem;
+
+            .pocket-graphic-wrapper {
+                position: relative;
+                width: fit-content;
+                height: fit-content;
+
+                @include media('sp') {
+                    margin-bottom: 5.2rem;
+                }
+
+                .btn-wrapper {
+                    position: absolute;
+                    right: 5%;
+                    top: 59%;
+
+                    @include media('sp') {
+                        right: 0;
+                        top: 105%;
+                    }
+                }
+            }
 
             .pocket-graphic {
                 width: 100%;
@@ -520,11 +558,15 @@
 
                     @include media('sp') {
                         width: 17.6rem;
+                        aspect-ratio: 177 / 243;
+                        flex-shrink: 0;
                     }
                 }
 
                 .right-img {
                     width: 21.9rem;
+                    aspect-ratio: 219 / 330;
+                    flex-shrink: 0;
                     height: fit-content;
                     border-radius: 8px;
                     border: 1px solid #DDDDDD;
@@ -663,7 +705,7 @@
                 }
 
                 .description {
-                    margin-bottom: 4.6rem;
+                    margin-bottom: 2.6rem;
 
                     @include media('sp') {
                         margin-bottom: 2.0rem;
@@ -938,7 +980,11 @@
             }
 
             .card {
-                width: 100%;
+                width: calc(50% - 2.1rem);
+
+                @include media('sp') {
+                    width: 100%;
+                }
 
                 .title {
                     color: #FFF;
@@ -982,9 +1028,10 @@
                         @include media('sp') {
                             font-size: 1.8rem;
                             margin-bottom: 4.0rem;
+                            white-space: nowrap;
                         }
 
-                        span {
+                        span.font-56-700-din {
                             @include media('sp') {
                                 font-size: 4.8rem;
                             }
@@ -1018,6 +1065,9 @@
                             }
 
                             &:last-child {
+                                .value {
+                                    font-size: 1.4rem;
+                                }
                                 @include media('sp') {
                                     align-items: flex-start
                                 }
@@ -1081,6 +1131,7 @@
 
                         p.font-18-500 {
                             white-space: nowrap;
+
                             @include media('sp') {
                                 font-size: 1.5rem;
                                 margin-bottom: 1.6rem;
@@ -1146,13 +1197,10 @@
             }
         }
 
-        .bottom-img {
-            display: block;
-            width: 38.6rem;
+        .apps-button {
             margin: 0 auto;
 
             @include media('sp') {
-                width: 29rem;
                 margin: 0 auto;
             }
         }
@@ -1418,6 +1466,15 @@
                         align-items: center;
                         margin-bottom: 4.5rem;
 
+                        .calculate {
+                            width: 8.4rem;
+
+                            @include media('sp') {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+
                         .apps_button {
                             width: 38.6rem;
 
@@ -1524,10 +1581,10 @@
             }
 
             .apps-button {
-                width: 38.6rem;
+                margin-left: auto;
+                margin-right: auto;
 
                 @include media('sp') {
-                    width: 29rem;
                     margin-bottom: 2.0rem;
                 }
             }
@@ -1701,8 +1758,8 @@
                             justify-content: center;
                             height: 4.8rem;
                             width: 4.8rem;
-                            background: #FFFE3B;
-                            border: 3px solid #000;
+                            background: #FDD933;
+                            border: 2px solid #000;
                             border-radius: 90px;
 
                             @include media("sp") {

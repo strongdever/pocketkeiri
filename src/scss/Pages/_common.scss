@@ -317,6 +317,27 @@ main {
     }
 }
 
+.apps-button {
+    width: fit-content;
+    display: flex;
+    column-gap: 2.4rem;
+
+    @include media('sp') {
+        column-gap: 1.6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        height: 6.0rem;
+        width: fit-content;
+
+        @include media('sp') {
+            height: 4.4rem;
+        }
+    }
+}
+
 .btn-wrapper {
     display: block;
     position: relative;

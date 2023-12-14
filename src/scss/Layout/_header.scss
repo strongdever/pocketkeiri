@@ -9,26 +9,32 @@
     background: #F9F9F9;
     padding-left: 8.0rem;
     padding-right: 8.0rem;
-    z-index:  999;
+    z-index: 999;
+
     &.contact-header {
         background-color: #FFF;
     }
+
     @include media("sp") {
         padding: 0;
         width: 100%;
         height: 5.6rem;
     }
+
     .header-wrapper {
         width: 100%;
         display: flex;
         justify-content: space-between;
+
         @include media("sp") {
             width: 100%;
             height: 100%;
         }
+
         .header-logo {
             img {
                 width: 24rem;
+
                 @include media("sp") {
                     padding: 1.4rem 1.6rem;
                     width: 10.1rem;
@@ -41,12 +47,15 @@
             display: flex;
             align-items: center;
             column-gap: 1.6rem;
+
             @include media("sp") {
                 column-gap: 0;
                 width: fit-content;
                 height: 100%;
             }
-            .btn-yellow, .btn-black {
+
+            .btn-yellow,
+            .btn-black {
                 @include media("sp") {
                     border-radius: 0;
                     border: unset;
@@ -57,12 +66,14 @@
                     line-height: 1.4rem;
                 }
             }
+
             .btn-login {
                 display: flex;
                 column-gap: 0.8rem;
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
+
                 @include media("sp") {
                     display: flex;
                     align-items: center;
@@ -74,9 +85,11 @@
                     row-gap: 0.3rem;
                     font-size: 1.1rem;
                 }
+
                 &:hover {
                     opacity: 0.7;
                 }
+
                 img {
                     width: 2.4rem;
                     height: 2.4rem;
@@ -111,6 +124,7 @@
         align-items: center;
         justify-content: center;
         row-gap: 2.0rem;
+        padding: 0 1.6rem;
     }
 
     .header-wrapper {
@@ -119,17 +133,21 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         @include media('sp') {
             height: fit-content;
         }
     }
+
     .logo-desc {
         display: flex;
         align-items: center;
         column-gap: 4.0rem;
+
         .header-logo {
             img {
                 width: 25.3rem;
+
                 @include media('sp') {
                     width: 13.1rem;
                 }
@@ -138,13 +156,17 @@
     }
 
     .btn-blue.btn {
-        width: 11.6rem;
-        height: 3.8rem;
-        font-size: 1.1rem;
+        @include media('sp') {
+            width: 11.6rem;
+            height: 3.8rem;
+            font-size: 1.1rem;
+        }
     }
-    
+
     .description {
         color: #FFF;
+        font-weight: 600;
+
         @include media('sp') {
             font-size: 1.3rem;
         }

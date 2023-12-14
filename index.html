@@ -47,7 +47,7 @@
 				<img class="pocketkeiri-logo" src="./assets/img/pocketkeiri_logo.svg">
 				<img class="main-charaters-sp sp" src="./assets/img/main-characters_SP.svg">
 				<h3 class="service-label font-20-700">ミロク情報サービスの</h3>
-				<p class="description font-32-400">ポケット経理 請求支払は、<br>
+				<p class="description font-32-700">ポケット経理 請求支払は、<br>
 					PDFや郵送などバラバラに届く<br>
 					請求書をスマホで管理しながら、<br>
 					その後の支払い<span class="font-14-400">※1</span>まで<br class="sp">簡単にできるアプリです。
@@ -72,7 +72,9 @@
 
 		<section class="section1">
 			<div class="container">
-				<img src="./assets/img/character_1.svg" class="left-img pc">
+				<div class="left-img-wrapper pc">
+					<img src="./assets/img/character_1.svg" class="left-img pc">
+				</div>
 				<img src="./assets/img/character-1_SP.svg" class="left-img sp">
 				<div class="right-wrapper">
 					<div class="app-desc">
@@ -80,12 +82,15 @@
 							デジタル時代に<br class="sp">「これなら使える！」経理業務アプリ<br>
 							「ポケット経理 請求支払」アプリを<br class="sp">今すぐダウンロード
 						</p>
-						<img src="./assets/img/apps_button.png" class="apps-button">
-						<img src="./assets/img/mjs.svg" class="mjs sp">
+						<div class="apps-button">
+							<img src="./assets/img/app-store.png" class="app-store">
+							<img src="./assets/img/google-play.png" class="google-play">
+						</div>
+						<img src="./assets/img/mjs.png" class="mjs sp">
 					</div>
 					<p class="three-items font-14-400">
 						※1　振込決済サービスの「楽たすプラス」、「請求書カード払いサービス」の登録が必要です。<br>
-						※2　2024年6月請求書発行機能追加予定<br>
+						※2　2024年6月リリース予定の請求書発行機能にてインボイス制度に対応<br>
 						※3　ポケット経理（TM）は、全国10万社の企業、8400所の税理士・会計事務所の経営課題に取り組んできた株式会社ミロク情報サービスのサービスです。
 					</p>
 				</div>
@@ -97,14 +102,14 @@
 				<div class="left-wrapper">
 					<div class="question-wrapper">
 						<h2 class="font-40-700 question">ポケット経理の<br class="sp">請求支払って<br class="sp">どんなアプリ？</h2>
-						<img class="right-img sp" src="./assets/img/character_2.svg">
+						<img class="right-img sp" src="./assets/img/character-2_SP.svg">
 					</div>
 					<p class="content font-18-500">
 						「ポケット経理 請求支払」は、お金の動きを見える化しながら請求書の電子保存を行えるアプリです。<br>
 						Eメールや郵送などバラバラで届く請求書のPDFや紙の請求書を一括保存し、<br>
 						AI-OCR機能※で請求内容をデータとして管理します。<br>
 						届いた請求書の記載金額は、翌月の支払待ちの請求書として表示されます。<br>
-						連携するクレジットカードや振込決済アプリと連携すれば、そのまま支払いまで可能です。<br>
+						振込決済アプリやクレジットカードと連携すれば、そのまま支払いまで可能です。<br>
 						受け取った請求書の適格請求書要件を満たしているかチェックしながら、<br>
 						支払い予定金額や既に支払った請求金額もわかりやすく管理できます。<br>
 						<span class="font-14-400 pc">※画像データ内の文字を読み取り文字データ化する技術</span>
@@ -116,8 +121,20 @@
 
 		<section class="section3">
 			<div class="container">
-				<img class="pocket-graphic pc" src="./assets/img/pocket_graphic.svg">
-				<img class="pocket-graphic sp" src="./assets/img/pocket_graphic_SP.svg">
+				<div class="pocket-graphic-wrapper">
+					<img class="pocket-graphic pc" src="./assets/img/pocket_graphic.svg">
+					<img class="pocket-graphic sp" src="./assets/img/pocket_graphic_SP.svg">
+					<div class="btn-wrapper">
+						<a class="href-btn font-16-700" href="https://lp.rakutasu-plus.com/" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path
+									d="M17.0306 12.5307L9.53063 20.0307C9.42573 20.1357 9.29204 20.2073 9.14648 20.2362C9.00092 20.2652 8.85002 20.2504 8.71291 20.1936C8.57579 20.1368 8.45861 20.0405 8.37621 19.9171C8.29381 19.7936 8.24988 19.6485 8.25 19.5001V4.5001C8.24988 4.35168 8.29381 4.20656 8.37621 4.08312C8.45861 3.95967 8.57579 3.86345 8.71291 3.80664C8.85002 3.74982 9.00092 3.73497 9.14648 3.76396C9.29204 3.79294 9.42573 3.86447 9.53063 3.96948L17.0306 11.4695C17.1004 11.5391 17.1557 11.6218 17.1934 11.7129C17.2312 11.8039 17.2506 11.9015 17.2506 12.0001C17.2506 12.0987 17.2312 12.1963 17.1934 12.2873C17.1557 12.3784 17.1004 12.4611 17.0306 12.5307Z"
+									fill="#2175D6" />
+							</svg>
+							楽たすプラスサービスについて
+						</a>
+					</div>
+				</div>
 				<p class="item1 item font-18-700 sp">
 					届いた請求書は現物の画像保存と共にAI-OCR読み込みでデータ化されます
 				</p>
@@ -135,7 +152,7 @@
 							受け取った請求書のデータは、支払予定金額としてアプリのカレンダーに表示されます
 						</p>
 						<p class="desc1 desc font-14-400 pc">
-							※本サービスはGMOあおぞら銀行の支払専用口座との
+							※楽たすプラスはGMOあおぞらネット銀行の支払専用口座との
 							連携が必要です。口座残高はGMOあおぞら銀行の残高が
 							表示されます。
 						</p>
@@ -147,7 +164,7 @@
 					<img class="right-img" src="./assets/img/app_calender.png">
 				</div>
 				<p class="desc1 desc font-14-400 sp">
-					※本サービスはGMOあおぞら銀行の支払専用口座との
+					※楽たすプラスはGMOあおぞらネット銀行の支払専用口座との
 					連携が必要です。口座残高はGMOあおぞら銀行の残高が
 					表示されます。
 				</p>
@@ -180,7 +197,7 @@
 						<h4 class="question font-20-700">請求書カード払いサービスとは</h4>
 						<p class="description font-16-500">請求書が届いた翌月末に支払いを代行し、カード支払日からカード引落日まで、支出を遅らせることができます。</p>
 						<img class="payment-schedule" src="./assets/img/payment-schedule.svg">
-						<a class="href-btn font-16-700" href="" target="_blank">
+						<!-- <a class="href-btn font-16-700" href="" target="_blank">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 								fill="none">
 								<path
@@ -188,7 +205,7 @@
 									fill="#2175D6" />
 							</svg>
 							請求書カード払いサービスについて
-						</a>
+						</a> -->
 					</div>
 					<div class="concept-item right-item">
 						<h4 class="question font-20-700">振込決済アプリ「楽たすプラス」とは</h4>
@@ -248,8 +265,8 @@
 							<img src="./assets/img/feature-2.svg" class="feature-2 left-img sp">
 							<p class="description font-18-500">
 								翌月の支払い予定金額はそのまま連携サービスで支払いまで可能です。<br>
-								・クレジットカード払い「請求書カード払いサービス」<br>
 								・振込決済アプリ「楽たすプラス」<br>
+								・クレジットカード払い「請求書カード払いサービス」<br>
 								との連携が必要です。
 							</p>
 							<span class="font-14-400">
@@ -288,13 +305,13 @@
 							<span class="new-label font-20-700">新機能</span>
 							<img src="./assets/img/feature-4.svg" class="feature-4 left-img">
 							<h3 class="font-36-700 top-text sp">
-								<span class="font-28-700">売上として取引先から</span><br>
+								<span class="font-28-700">取引先からの</span><br>
 								入金を管理する
 							</h3>
 						</div>
 						<div class="right-wrapper">
 							<h3 class="font-36-700 top-text pc">
-								<span class="font-28-700">売上として取引先から</span><br>
+								<span class="font-28-700">取引先からの</span><br>
 								入金を管理する
 							</h3>
 							<p class="description font-18-500">
@@ -334,6 +351,7 @@
 								月額費用&nbsp;&nbsp;&nbsp;&nbsp;
 								<span class="font-56-700-din">1,650</span>
 								円
+								<span class="font-16-500">（税込）</span>
 							</p>
 							<ul class="table">
 								<li class="record">
@@ -342,7 +360,7 @@
 										制限枚数
 									</p>
 									<p class="value font-16-500">
-										<span class="font-36-700-din">25</span>&nbsp;制限枚数
+										<span class="font-36-700-din">25</span>&nbsp;枚/月
 									</p>
 								</li>
 								<li class="record">
@@ -392,8 +410,8 @@
 										支払振込機能
 									</p>
 									<p class="value font-16-500">
-										請求書カード払いサービス<br>
-										振込決済アプリ 楽たすプラス
+										振込決済アプリ 楽たすプラス<br>
+										請求書カード払いサービス
 									</p>
 								</li>
 							</ul>
@@ -428,6 +446,8 @@
 								月額費用&nbsp;&nbsp;&nbsp;&nbsp;
 								<span class="font-56-700-din">3,300</span>
 								円
+								<span class="font-16-500">（税込）</span>
+								
 							</p>
 							<ul class="table">
 								<li class="record">
@@ -436,7 +456,7 @@
 										制限枚数
 									</p>
 									<p class="value font-16-500">
-										<span class="font-36-700-din">50</span>&nbsp;制限枚数
+										<span class="font-36-700-din">50</span>&nbsp;枚/月
 									</p>
 								</li>
 								<li class="record">
@@ -486,8 +506,8 @@
 										支払振込機能
 									</p>
 									<p class="value font-16-500">
-										請求書カード払いサービス<br>
-										振込決済アプリ 楽たすプラス
+										振込決済アプリ 楽たすプラス<br>
+										請求書カード払いサービス
 									</p>
 								</li>
 							</ul>
@@ -519,7 +539,10 @@
 					デジタル時代に<br class="sp">「これなら使える！」経理業務アプリ<br>
 					「ポケット経理 請求支払」アプリを<br class="sp">今すぐダウンロード
 				</p>
-				<img class="bottom-img" src="./assets/img/apps_button.png">
+				<div class="apps-button">
+					<img src="./assets/img/app-store.png" class="app-store">
+					<img src="./assets/img/google-play.png" class="google-play">
+				</div>
 			</div>
 		</section>
 
@@ -565,7 +588,7 @@
 							<p class="note font-14-400">※別途サービスのお申し込みが必要です。</p>
 						</li>
 						<li class="card">
-							<h5 class="label font-24-700">クレジットカード払い</h5>
+							<h5 class="label font-24-700">請求書発行</h5>
 							<div class="wrapper">
 								<p class="rect-text font-16-500">2024年6月リリース予定</p>
 							</div>
@@ -589,30 +612,32 @@
 					<li class="step step1">
 						<!-- <span class="number font-60-700-din">01</span> -->
 						<div class="step-content">
-							<p class="desc font-24-700">アプリをダウンロードし、アカウント登録をしてください。</p>
+							<p class="desc font-24-700">アプリをダウンロードしてください。</p>
 							<div class="img-wrapper">
-								<img class="apps_button" src="./assets/img/apps_button.png">
+								<div class="apps-button">
+									<img src="./assets/img/app-store.png" class="app-store">
+									<img src="./assets/img/google-play.png" class="google-play">
+								</div>
 							</div>
 						</div>
 					</li>
 					<li class="step step2">
 						<!-- <span class="number font-60-700-din">02</span> -->
 						<div class="step-content">
-							<p class="desc font-24-700">取り込んだ請求金額は連携サービスのお申し込みで支払いまで可能です</p>
+							<p class="desc font-24-700">アカウント登録をしてください。</p>
 							<div class="img-wrapper">
-								<img class="card" src="./assets/img/card.svg">
-								<img class="rakutasu-logo" src="./assets/img/rakutasu_logo.svg">
+								<img class="calculate" src="./assets/img/calculate.svg">
 							</div>
 						</div>
 					</li>
 					<li class="step step3">
 						<!-- <span class="number font-60-700-din">03</span> -->
 						<div class="step-content">
-							<p class="desc font-24-700">利用者ごとに申請者や承認者などを設定でき、スムーズな請求支払業務が可能です</p>
-							<p class="bottom-desc font-18-500">
-								複数の利用者を申請者や承認者として登録できるのはスタンダードプランです。<br>
-								ライトプランは利用者は1名のみです。
-							</p>
+							<p class="desc font-24-700">取り込んだ請求金額は連携サービスのお申し込みで支払いまで可能です。</p>
+							<div class="img-wrapper">
+								<img class="rakutasu-logo" src="./assets/img/rakutasu_logo.svg">
+								<img class="card" src="./assets/img/card.svg">
+							</div>
 						</div>
 					</li>
 				</ul>
@@ -628,8 +653,11 @@
 						デジタル時代に<br class="sp">「これなら使える！」経理業務アプリ<br>
 						「ポケット経理 請求支払」アプリを<br class="sp">今すぐダウンロード
 					</p>
-					<img src="./assets/img/apps_button.png" class="apps-button">
-					<img src="./assets/img/mjs.svg" class="mjs sp">
+					<div class="apps-button">
+						<img src="./assets/img/app-store.png" class="app-store">
+						<img src="./assets/img/google-play.png" class="google-play">
+					</div>
+					<img src="./assets/img/mjs.png" class="mjs sp">
 				</div>
 			</div>
 		</section>
@@ -646,8 +674,6 @@
 								onclick="filterSelection('利用登録について')"><span>利用登録について</span></a>
 							<a class="btn btn-faq font-16-700"
 								onclick="filterSelection('利用方法について')"><span>利用方法について</span></a>
-							<a class="btn btn-faq font-16-700"
-								onclick="filterSelection('セキュリティ・利用環境について')"><span>セキュリティ・利用環境について</span></a>
 						</div>
 					</div>
 				</div>
@@ -661,79 +687,7 @@
 						</h4>
 						<p class="answer font-16-500">
 							<span>
-								MJSグループが提供するスマホやPCを使った使い勝手の良い、安価な手数料の決済サービスです。<br>
-								今後につきましては様々なサービスと連携する予定です。
-							</span>
-						</p>
-					</li>
-					<li class="q-a-item サービス概要について">
-						<h4 class="question font-16-500">
-							<span>
-								ポケット経理請求支払に追加される機能、サービスの予定はありますか？
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								今後、MJSの会計サービスに紐づく資金決済、また他社サービス/提携金融機関との連携を拡大し、連携先サービスに必要な資金決済機能として、安心・便利で使いやすいサービスを拡充する予定です。
-							</span>
-						</p>
-					</li>
-
-					<!-- 利用登録について -->
-					<li class="q-a-item 利用登録について">
-						<h4 class="question font-16-500">
-							<span>
-								どのような人が利用できますか？
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								本サービスの利用は法人のみです。（個人・個人事業主様のお申し込み・ご利用はできません。）
-							</span>
-						</p>
-					</li>
-					<li class="q-a-item 利用登録について">
-						<h4 class="question font-16-500">
-							<span>
-								利用登録時に、準備する書類はありますか？
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								利用登録には下記の書類が必要です。予めご用意ください。 <br>
-								１．会社代表者本人確認資料 (１～５から、いずれかの組み合わせをご用意ください。）<br>
-								&nbsp;&nbsp;&nbsp;１）運転免許証(表面と裏面） <br>
-								&nbsp;&nbsp;&nbsp;２）マイナンバーカード（顔写真がある表面）<br>
-								&nbsp;&nbsp;&nbsp;３）パスポート（2020年2月以前に発行されたもの、顔写真と所持人欄（現住所の記載）のページ） <br>
-								&nbsp;&nbsp;&nbsp;４）健康保険証（表面と裏面）と住民票写し（発行日から６ヶ月以内） <br>
-								&nbsp;&nbsp;&nbsp;５）健康保険証（表面と裏面）と公共料金領収証（発行から６ヶ月以内） <br>
-								&nbsp;&nbsp;&nbsp;代表者本人確認資料について、上記書類のご提示が難しい場合はお問い合わせください。<br><br>
-								&nbsp;&nbsp;&nbsp;消込（マスキング）について<br>
-								&nbsp;&nbsp;&nbsp;※健康保険証は、被保険者等記号・番号、保険者番号、QRコードを消込済のもの<br><br>
-								&nbsp;&nbsp;&nbsp;パスポートについて<br>
-								&nbsp;&nbsp;&nbsp;2020年2月4日以降に発給申請されたパスポートにおきましては、現住所等を記載することができる「所持人記入欄」が削除されたことに伴い、本人確認書類として利用いただけません。<br><br>
-								&nbsp;&nbsp;&nbsp;補足書類について<br>
-								&nbsp;&nbsp;&nbsp;※住民票写しは、発行から６ヶ月以内で、個人番号、住民票コード、本籍地の記載がないもの<br>
-								&nbsp;&nbsp;&nbsp;※公共料金領収書は、作成、発行から６ヶ月以内のもの（電気、ガス、水道、NHK、固定電話）で、お名前、現住所が記載されているもの（ご本人様名義に限ります）<br><br>
-								&nbsp;&nbsp;&nbsp;商業登記簿謄本について<br>
-								&nbsp;&nbsp;&nbsp;※会社情報確認のために履歴事項全部証明書（商業登記簿謄本）を代理取得させていただきます。<br><br>
-								２．株主名簿（代表者以外に下記に該当する方がいる場合） <br>
-								&nbsp;&nbsp;&nbsp;１）議決権の50%超を保有する個人・法人 <br>
-								&nbsp;&nbsp;&nbsp;２）議決権の25%超を保有する個人・法人 <br>
-								&nbsp;&nbsp;&nbsp;３）事業活動に支配的な影響力がある個人・法人
-							</span>
-						</p>
-					</li>
-					<li class="q-a-item 利用登録について">
-						<h4 class="question font-16-500">
-							<span>
-								本人確認書類のマスキングとはなんですか？
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								本人確認書類に、第三者に取得制限があるものや機微情報が含まれているため、提出時にマスキング（塗りつぶす）を施して頂く必要があります。会社代表者本人確認資料を送付される前に、以下に該当する本人確認書類については該当項目をマスキングのうえでのご提出が必要です。画像のアップロード前に付箋・マスキングテープや紙片などで以下の項目を隠してください。<br><br>
-								健康保険証：「被保険者等記号・番号」、「保険者番号」、「QRコード」
+								スマホで請求管理も支払い管理もできる電子帳簿保存法の改正に対応した請求書受領サービスです。
 							</span>
 						</p>
 					</li>
@@ -745,47 +699,7 @@
 						</h4>
 						<p class="answer font-16-500">
 							<span>
-								ご利用申し込みにて会社情報の入力や必要書類のアップロードをしていただきます。審査完了後、Eメールでお送りするログイン画面よりIDとパスワードを設定ください。（設定後については提携銀行の口座開設が必要となります。）
-							</span>
-						</p>
-					</li>
-					<li class="q-a-item 利用登録について">
-						<h4 class="question font-16-500">
-							<span>
-								サービス利用にあたり、審査はありますか？
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								関係法令および弊社規定に沿って審査をさせていただきます。<br>
-								審査の結果、ご利用いただけない場合がございます。あらかじめご了承ください。
-							</span>
-						</p>
-					</li>
-
-					<!-- 利用方法について -->
-					<li class="q-a-item 利用方法について">
-						<h4 class="question font-16-500">
-							<span>
-								担当者のアカウントを追加、削除したいです。
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								追加はログイン後、ホーム画面の「社員」より社員の招待をすることができます。<br>
-								削除はログイン後、ホーム画面の「社員」より社員一覧の中から削除することができま
-							</span>
-						</p>
-					</li>
-					<li class="q-a-item 利用方法について">
-						<h4 class="question font-16-500">
-							<span>
-								招待のメールを受領しましたが、有効期限が切れてしまいました。
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								認証コードの有効期限が切れた場合は再度招待をしてください。
+								アプリをダウンロードの上、「アカウントをお持ちでない方は新規登録へ」にてアカウントを作成してください。登録後、認証コードを入力してください。
 							</span>
 						</p>
 					</li>
@@ -797,56 +711,22 @@
 						</h4>
 						<p class="answer font-16-500">
 							<span>
-								ログイン画面にあるパスワードを忘れた方をクリックしてください。パスワード再設定のメールをお送りします。
+								ログイン画面にあるパスワードを忘れた方はこちらへクリックしてください。パスワード再設定用の認証コードが送付されます。
 							</span>
 						</p>
 					</li>
 					<li class="q-a-item 利用方法について">
 						<h4 class="question font-16-500">
 							<span>
-								パスワードを変更したいです。
+								ポケット経理請求支払を退会したい。
 							</span>
 						</h4>
 						<p class="answer font-16-500">
 							<span>
-								ログイン後、変更が可能です。楽たすプラスにログインしていただき、ホーム画面の「各種設定」から「アカウント情報」の中にある「社員情報の変更」でログインパスワードを変更できます。
+								ログイン後、設定から退会を選択いただき、同意チェックを押してから退会してください。
 							</span>
 						</p>
 					</li>
-					<li class="q-a-item 利用方法について">
-						<h4 class="question font-16-500">
-							<span>
-								楽たすプラスを解約したいです。
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								ログイン後、ホーム画面より、「各種設定」をクリックしていただき、右下部の「楽たすブラスを解約」をクリックしてください。
-							</span>
-						</p>
-					</li>
-
-					<!-- セキュリティ・利用環境について -->
-					<li class="q-a-item セキュリティ・利用環境について">
-						<h4 class="question font-16-500">
-							<span>
-								利用環境、推奨環境を教えてください
-							</span>
-						</h4>
-						<p class="answer font-16-500">
-							<span>
-								■推奨ブラウザ（最新バージョンをご利用ください）<br>
-								GoogleChrome<br>
-								Edge<br>
-								Safari<br>
-								■対応デバイス<br>
-								PC：Windows、Macintosh<br>
-								スマートフォン：iOS、android<br><br>
-								※一部利用できない場合がございます
-							</span>
-						</p>
-					</li>
-
 				</ul>
 			</div>
 		</section>
