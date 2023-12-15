@@ -1194,6 +1194,16 @@ main.contact-page {
   }
 }
 
+.apps-button .app-store {
+  aspect-ratio: 132 / 49;
+  width: auto;
+}
+
+.apps-button .google-play {
+  aspect-ratio: 162 / 49;
+  width: auto;
+}
+
 .btn-wrapper {
   display: block;
   position: relative;

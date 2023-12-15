@@ -336,6 +336,16 @@ main {
             height: 4.4rem;
         }
     }
+
+    .app-store {
+        aspect-ratio: 132 / 49;
+        width: auto;
+    }
+
+    .google-play {
+        aspect-ratio: 162 / 49;
+        width: auto;
+    }
 }
 
 .btn-wrapper {
