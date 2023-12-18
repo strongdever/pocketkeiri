@@ -121,10 +121,17 @@
                 }
             }
 
+            .main-campaign-sp {
+                width: 45%;
+                margin-left: 3rem;
+                margin-top: -3.2rem;
+            }
+
             .main-charaters-sp {
                 width: 100%;
                 margin-bottom: 2.8rem;
             }
+
 
             .service-label {
                 width: fit-content;
@@ -200,6 +207,13 @@
             width: 32.5%;
             position: absolute;
             top: 11.1rem;
+        }
+
+        .main-campaign {
+            right: 14.5%;
+            width: 15.5%;
+            position: absolute;
+            top: 5.1rem;
         }
     }
 
@@ -292,6 +306,7 @@
             .left-img-wrapper {
                 position: relative;
                 height: fit-content;
+
                 &::after {
                     position: absolute;
                     content: '※3';
@@ -920,12 +935,13 @@
             color: #2175D6;
             width: fit-content;
             text-align: center;
-            margin: 0 auto 5.6rem auto;
+            margin: 6.2rem auto 5.6rem auto;
 
             @include media('sp') {
                 font-size: 2.8rem;
                 line-height: 4.8rem;
                 margin-bottom: 3.2rem;
+                margin-top: 0;
             }
 
             span {
@@ -940,16 +956,16 @@
 
             img {
                 position: absolute;
-                width: 15.5rem;
-                top: -116px;
-                left: -58px;
+                width: 38.4rem;
+                top: -17.6rem;
+                left: -5.8rem;
 
                 @include media('sp') {
                     display: block;
                     position: relative;
                     top: auto;
                     left: auto;
-                    width: 9.3rem;
+                    width: 27.2rem;
                     margin: 0 auto 2.0rem auto;
                 }
             }
@@ -1068,6 +1084,7 @@
                                 .value {
                                     font-size: 1.4rem;
                                 }
+
                                 @include media('sp') {
                                     align-items: flex-start
                                 }
@@ -1822,6 +1839,361 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+.card-pay {
+    .section1 {
+        padding: 10.4rem 0 6.4rem 0;
+
+        @include media('sp') {
+            padding: 4.0rem 0 5.6rem 0;
+        }
+
+        .container {
+            display: flex;
+            column-gap: 3.2rem;
+            justify-content: space-around;
+
+            @include media('sp') {
+                flex-direction: column;
+            }
+        }
+
+        .left-wrapper {
+            .head-text {
+                color: #2175D6;
+                margin-bottom: 7.2rem;
+
+                @include media('sp') {
+                    font-size: 2.4rem;
+                    margin-bottom: 2.4rem;
+                }
+            }
+
+            .middle-desc {
+                margin-bottom: 4.8rem;
+                line-height: 4.8rem;
+
+                @include media('sp') {
+                    font-size: 1.8rem;
+                    line-height: 2.8rem;
+                    text-align: left;
+                    margin-bottom: 2.0rem;
+                }
+            }
+
+            .notice {
+                line-height: 3.2rem;
+
+                @include media('sp') {
+                    font-size: 1.4rem;
+                    margin-bottom: 3.2rem;
+                    line-height: 2.4rem;
+                }
+            }
+        }
+
+        .right-img {
+            width: 38%;
+
+            @include media('sp') {
+                width: 100%;
+            }
+        }
+    }
+
+    .section2 {
+        padding: 12rem 0;
+        background: #2175D6;
+
+        @include media('sp') {
+            padding: 6.4rem 0;
+        }
+
+        .head-text {
+            color: #FFF;
+            margin-bottom: 9.6rem;
+
+            @include media('sp') {
+                font-size: 2.4rem;
+                margin-bottom: 4.0rem;
+            }
+        }
+
+        .cards-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5.6rem;
+
+            @include media('sp') {
+                row-gap: 3.2rem;
+            }
+
+            .card-item {
+                position: relative;
+                width: 100%;
+                display: flex;
+                column-gap: 7.2rem;
+                padding: 6.4rem 4.0rem 6.4rem 8.2rem;
+                border-radius: 12px;
+                background: #FFF;
+
+                @include media('sp') {
+                    padding: 4.0rem 1.6rem;
+                }
+
+                .left-img {
+                    position: relative;
+                    width: 26%;
+                    flex-shrink: 0;
+
+                    @include media('sp') {
+                        width: 100%;
+                        margin-bottom: 2.4rem;
+                    }
+
+                    img {
+                        max-width: 100%;
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    .cardpay-feature1 {
+                        width: 27rem;
+
+                        @include media('sp') {
+                            width: 20rem;
+                        }
+                    }
+
+                    .cardpay-feature2 {
+                        width: 19.2rem;
+
+                        @include media('sp') {
+                            width: 16.3rem;
+                        }
+                    }
+
+                    .cardpay-feature3 {
+                        width: 24rem;
+
+                        @include media('sp') {
+                            width: 15.6rem;
+                        }
+                    }
+                }
+
+                .right-wrapper {
+                    .sub-head-text {
+                        line-height: 4.8rem;
+                        margin-bottom: 3.2rem;
+                        color: #2175D6;
+
+                        @include media('sp') {
+                            font-size: 2.4rem;
+                            line-height: 3.6rem;
+                            margin-bottom: 2.4rem;
+                            text-align: center;
+                            letter-spacing: -0.05em;
+                        }
+                    }
+
+                    .content {
+                        margin-bottom: 3.2rem;
+                        line-height: 3.2rem;
+
+                        @include media('sp') {
+                            font-size: 1.5rem;
+                            margin-bottom: 1.6rem;
+                            line-height: 2.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .payment-flow {
+        padding: 12rem 0;
+        @include media('sp') {
+            padding: 6.4rem 0;
+        }
+
+        .head-text {
+            color: #2175D6;
+            margin-bottom: 10.4rem;
+            @include media('sp') {
+                font-size: 2.4rem;
+                margin-bottom: 3.2rem;
+            }
+        }
+
+        img {
+            display: block;
+            max-width: 102rem;
+            width: 100%;
+            margin: 0 auto;
+            @include media('sp') {
+                width: 100%;
+            }
+        }
+    }
+
+    .flow2 {
+        padding: 12rem 0;
+        background: #2175D6;
+        @include media('sp') {
+            padding: 6.4rem 0;
+        }
+
+        .head-text {
+            color: #FFF;
+            margin-bottom: 7.4rem;
+            @include media('sp') {
+                font-size: 2.4rem;
+                margin-bottom: 4.2rem;
+            }
+        }
+
+        .flow {
+            display: flex;
+            column-gap: 1.6rem;
+            padding: 1.6rem 3.2rem;
+            max-width: 116rem;
+            background: #FFF;
+            border-radius: 12px;
+
+            @include media('sp') {
+                flex-direction: column;
+                row-gap: 1.6rem;
+            }
+
+            .right-triangle {
+                width: 2.7rem;
+                height: 2.6rem;
+                flex-shrink: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                transform: translate(0, -3.8rem);
+                @include media('sp') {
+                    display: block;
+                    margin: 0 auto;
+                    transform: translate(0, 0);
+                }
+            }
+
+            .flow-item {
+                .num {
+                    margin-bottom: 1.6rem;
+                    font-family: "DIN 2014";
+                    color: #2175D6;
+                    width: fit-content;
+                    @include media('sp') {
+                        font-size: 4.0rem;
+                        margin-bottom: 1.0rem;
+                    }
+                }
+
+                .content {
+                    line-height: 3.2rem;
+                    margin-bottom: 3.2rem;
+                    @include media('sp') {
+                        font-size: 1.5rem;
+                        line-height: 2.4rem;
+                        margin-bottom: 2.4rem;
+                    }
+                }
+
+                .btn-blue.btn {
+                    @include media('sp') {
+                        margin: 0 auto;
+                    }
+                }
+
+                .btn-blue.btn:hover {
+                    border: 2px solid #2175D6;
+                    
+                }
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                .card-img {
+                    width: 10rem;
+                }
+
+                .cardpay-flow3 {
+                    width: 26rem;
+                }
+
+                .cardpay-flow4 {
+                    width: 10.9rem;
+                }
+            }
+        }
+    }
+
+    .bottom-section {
+        padding: 12.5rem 0;
+        @include media('sp') {
+            padding: 5.6rem 0;
+        }
+
+        .desc {
+            margin-bottom: 4.8rem;
+            @include media('sp') {
+                font-size: 1.8rem;
+                line-height: 3.0rem;
+                margin-bottom: 2.4rem;
+            }
+        }
+
+        .btn-wrapper {
+            display: flex;
+            width: fit-content;
+            margin: 0 auto;
+            column-gap: 3.2rem;
+
+            @include media('sp') {
+                width: fit-content;
+                flex-direction: column;
+                row-gap: 1.6rem;
+            }
+
+            .btn {
+                @include media('sp') {
+                    width: 24.3rem !important;
+                }
+            }
+
+            .btn-black {
+                width: 31.2rem;
+            }
+
+            .btn-blue.btn {
+                width: 27.1rem;
+                background: #2175D6;
+                height: 6.4rem;
+                padding: 1.5rem 4.8rem;
+                color: #FFF;
+                border: 3px solid #2175D6;
+            }
+
+            .btn-blue.btn::before {
+                display: block;
+            }
+
+            .btn-blue.btn::before {
+                background: #333;
+            }
+
+            .btn-blue.btn::after {
+                border: 3px solid #2175D6;
             }
         }
     }

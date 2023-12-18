@@ -854,10 +854,25 @@ main.contact-page {
   }
 }
 
+.font-14-700 {
+  color: #333;
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .font-14-700 {
+    font-size: 1.2rem;
+  }
+}
+
 .font-15-400 {
   color: #333;
   font-family: "Noto Sans JP";
-  font-size: 15px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
@@ -1401,6 +1416,47 @@ input[type=checkbox]:checked:before {
   z-index: 2;
 }
 
+.breadcrump {
+  padding: 1.5rem 4.8rem;
+  width: 100%;
+  height: 4.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 0.8rem;
+     -moz-column-gap: 0.8rem;
+          column-gap: 0.8rem;
+  row-gap: 0.5rem;
+  background: #F4F4F4;
+}
+
+@media only screen and (max-width: 768px) {
+  .breadcrump {
+    padding: 1.2rem 1.6rem;
+    height: 6.1rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+  }
+}
+
+.breadcrump .page-link {
+  text-decoration: underline;
+}
+
+.breadcrump img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .breadcrump .font-14-500 {
+    margin-bottom: 0;
+  }
+}
+
 .contact-page .sub-mainview {
   padding: 6.4rem 0;
   text-align: center;
@@ -1543,6 +1599,12 @@ input[type=checkbox]:checked:before {
   }
 }
 
+.front-page .mainview .center-part .main-campaign-sp {
+  width: 45%;
+  margin-left: 3rem;
+  margin-top: -3.2rem;
+}
+
 .front-page .mainview .center-part .main-charaters-sp {
   width: 100%;
   margin-bottom: 2.8rem;
@@ -1645,6 +1707,13 @@ input[type=checkbox]:checked:before {
   width: 32.5%;
   position: absolute;
   top: 11.1rem;
+}
+
+.front-page .mainview .main-campaign {
+  right: 14.5%;
+  width: 15.5%;
+  position: absolute;
+  top: 5.1rem;
 }
 
 .front-page .rect-yellow {
@@ -2560,7 +2629,7 @@ input[type=checkbox]:checked:before {
   width: -moz-fit-content;
   width: fit-content;
   text-align: center;
-  margin: 0 auto 5.6rem auto;
+  margin: 6.2rem auto 5.6rem auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2568,6 +2637,7 @@ input[type=checkbox]:checked:before {
     font-size: 2.8rem;
     line-height: 4.8rem;
     margin-bottom: 3.2rem;
+    margin-top: 0;
   }
 }
 
@@ -2585,9 +2655,9 @@ input[type=checkbox]:checked:before {
 
 .front-page .section6 .head-text img {
   position: absolute;
-  width: 15.5rem;
-  top: -116px;
-  left: -58px;
+  width: 38.4rem;
+  top: -17.6rem;
+  left: -5.8rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2596,7 +2666,7 @@ input[type=checkbox]:checked:before {
     position: relative;
     top: auto;
     left: auto;
-    width: 9.3rem;
+    width: 27.2rem;
     margin: 0 auto 2.0rem auto;
   }
 }
@@ -3704,6 +3774,459 @@ input[type=checkbox]:checked:before {
     height: 3.2rem;
     font-size: 2.0rem;
   }
+}
+
+.card-pay .section1 {
+  padding: 10.4rem 0 6.4rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 {
+    padding: 4.0rem 0 5.6rem 0;
+  }
+}
+
+.card-pay .section1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3.2rem;
+     -moz-column-gap: 3.2rem;
+          column-gap: 3.2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.card-pay .section1 .left-wrapper .head-text {
+  color: #2175D6;
+  margin-bottom: 7.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 .left-wrapper .head-text {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.card-pay .section1 .left-wrapper .middle-desc {
+  margin-bottom: 4.8rem;
+  line-height: 4.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 .left-wrapper .middle-desc {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: left;
+    margin-bottom: 2.0rem;
+  }
+}
+
+.card-pay .section1 .left-wrapper .notice {
+  line-height: 3.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 .left-wrapper .notice {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+    line-height: 2.4rem;
+  }
+}
+
+.card-pay .section1 .right-img {
+  width: 38%;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section1 .right-img {
+    width: 100%;
+  }
+}
+
+.card-pay .section2 {
+  padding: 12rem 0;
+  background: #2175D6;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 {
+    padding: 6.4rem 0;
+  }
+}
+
+.card-pay .section2 .head-text {
+  color: #FFF;
+  margin-bottom: 9.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .head-text {
+    font-size: 2.4rem;
+    margin-bottom: 4.0rem;
+  }
+}
+
+.card-pay .section2 .cards-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list {
+    row-gap: 3.2rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 7.2rem;
+     -moz-column-gap: 7.2rem;
+          column-gap: 7.2rem;
+  padding: 6.4rem 4.0rem 6.4rem 8.2rem;
+  border-radius: 12px;
+  background: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item {
+    padding: 4.0rem 1.6rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .left-img {
+  position: relative;
+  width: 26%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .left-img {
+    width: 100%;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .left-img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-pay .section2 .cards-list .card-item .left-img .cardpay-feature1 {
+  width: 27rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .left-img .cardpay-feature1 {
+    width: 20rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .left-img .cardpay-feature2 {
+  width: 19.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .left-img .cardpay-feature2 {
+    width: 16.3rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .left-img .cardpay-feature3 {
+  width: 24rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .left-img .cardpay-feature3 {
+    width: 15.6rem;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .right-wrapper .sub-head-text {
+  line-height: 4.8rem;
+  margin-bottom: 3.2rem;
+  color: #2175D6;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .right-wrapper .sub-head-text {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 2.4rem;
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
+}
+
+.card-pay .section2 .cards-list .card-item .right-wrapper .content {
+  margin-bottom: 3.2rem;
+  line-height: 3.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .section2 .cards-list .card-item .right-wrapper .content {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    line-height: 2.8rem;
+  }
+}
+
+.card-pay .payment-flow {
+  padding: 12rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .payment-flow {
+    padding: 6.4rem 0;
+  }
+}
+
+.card-pay .payment-flow .head-text {
+  color: #2175D6;
+  margin-bottom: 10.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .payment-flow .head-text {
+    font-size: 2.4rem;
+    margin-bottom: 3.2rem;
+  }
+}
+
+.card-pay .payment-flow img {
+  display: block;
+  max-width: 102rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .payment-flow img {
+    width: 100%;
+  }
+}
+
+.card-pay .flow2 {
+  padding: 12rem 0;
+  background: #2175D6;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 {
+    padding: 6.4rem 0;
+  }
+}
+
+.card-pay .flow2 .head-text {
+  color: #FFF;
+  margin-bottom: 7.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .head-text {
+    font-size: 2.4rem;
+    margin-bottom: 4.2rem;
+  }
+}
+
+.card-pay .flow2 .flow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1.6rem;
+     -moz-column-gap: 1.6rem;
+          column-gap: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  max-width: 116rem;
+  background: #FFF;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .flow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1.6rem;
+  }
+}
+
+.card-pay .flow2 .flow .right-triangle {
+  width: 2.7rem;
+  height: 2.6rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-transform: translate(0, -3.8rem);
+          transform: translate(0, -3.8rem);
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .flow .right-triangle {
+    display: block;
+    margin: 0 auto;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+.card-pay .flow2 .flow .flow-item .num {
+  margin-bottom: 1.6rem;
+  font-family: "DIN 2014";
+  color: #2175D6;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .flow .flow-item .num {
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
+  }
+}
+
+.card-pay .flow2 .flow .flow-item .content {
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .flow .flow-item .content {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .flow2 .flow .flow-item .btn-blue.btn {
+    margin: 0 auto;
+  }
+}
+
+.card-pay .flow2 .flow .flow-item .btn-blue.btn:hover {
+  border: 2px solid #2175D6;
+}
+
+.card-pay .flow2 .flow .flow-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-pay .flow2 .flow .flow-item .card-img {
+  width: 10rem;
+}
+
+.card-pay .flow2 .flow .flow-item .cardpay-flow3 {
+  width: 26rem;
+}
+
+.card-pay .flow2 .flow .flow-item .cardpay-flow4 {
+  width: 10.9rem;
+}
+
+.card-pay .bottom-section {
+  padding: 12.5rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .bottom-section {
+    padding: 5.6rem 0;
+  }
+}
+
+.card-pay .bottom-section .desc {
+  margin-bottom: 4.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .bottom-section .desc {
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.card-pay .bottom-section .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  -webkit-column-gap: 3.2rem;
+     -moz-column-gap: 3.2rem;
+          column-gap: 3.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .bottom-section .btn-wrapper {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-pay .bottom-section .btn-wrapper .btn {
+    width: 24.3rem !important;
+  }
+}
+
+.card-pay .bottom-section .btn-wrapper .btn-black {
+  width: 31.2rem;
+}
+
+.card-pay .bottom-section .btn-wrapper .btn-blue.btn {
+  width: 27.1rem;
+  background: #2175D6;
+  height: 6.4rem;
+  padding: 1.5rem 4.8rem;
+  color: #FFF;
+  border: 3px solid #2175D6;
+}
+
+.card-pay .bottom-section .btn-wrapper .btn-blue.btn::before {
+  display: block;
+}
+
+.card-pay .bottom-section .btn-wrapper .btn-blue.btn::before {
+  background: #333;
+}
+
+.card-pay .bottom-section .btn-wrapper .btn-blue.btn::after {
+  border: 3px solid #2175D6;
 }
 
 .footer {
