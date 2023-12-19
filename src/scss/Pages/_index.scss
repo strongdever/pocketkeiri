@@ -468,8 +468,21 @@
                     top: 59%;
 
                     @include media('sp') {
-                        right: 0;
-                        top: 105%;
+                        position: relative;
+                        margin-bottom: 1.6rem;
+                        right: unset;
+                        top: unset;
+                    }
+                }
+                .btn-wrapper-1 {
+                    position: absolute;
+                    right: 3%;
+                    bottom: 0%;
+
+                    @include media('sp') {
+                        position: relative;
+                        right: unset;
+                        bottom: unset;
                     }
                 }
             }
@@ -643,13 +656,13 @@
 
             .concept-item {
                 width: 100%;
-                padding: 3.2rem;
+                padding: 3.2rem 3.2rem 4.8rem 3.2rem;
                 border-radius: 12px;
                 background: #F4F4F4;
                 text-align: left;
 
                 @include media('sp') {
-                    padding: 2.4rem 1.6rem;
+                    padding: 2.4rem 1.6rem 4.0rem 1.6rem;
                 }
 
                 .question {
@@ -670,9 +683,15 @@
                         line-height: 2.4rem;
                     }
                 }
+                
+                .btn-wrapper {
+                    position: absolute;
+                    bottom: 2.4rem;
+                }
             }
 
             .left-item {
+                position: relative;
                 .question {
                     margin-bottom: 2.0rem;
 
@@ -700,6 +719,7 @@
             }
 
             .right-item {
+                position: relative;
                 .question {
                     margin-bottom: 4.8rem;
 
@@ -1464,7 +1484,7 @@
                             margin-left: -9.7rem;
                             white-space: nowrap;
                             color: #2175D6;
-                            font-family: "DIN 2014";
+                            font-family: "Noto Sans JP";
                             font-size: 6.0rem;
                             font-style: normal;
                             font-weight: 700;
@@ -1765,7 +1785,7 @@
                             flex-shrink: 0;
                             color: #000;
                             text-align: center;
-                            font-family: "DIN 2014";
+                            font-family: "Noto Sans JP";
                             font-size: 3.2rem;
                             font-style: normal;
                             font-weight: bold;
@@ -1818,7 +1838,7 @@
                             margin-bottom: auto;
                             color: #FFF;
                             text-align: center;
-                            font-family: "DIN 2014";
+                            font-family: "Noto Sans JP";
                             font-size: 3.2rem;
                             font-style: normal;
                             font-weight: bold;
@@ -2065,6 +2085,7 @@
             max-width: 116rem;
             background: #FFF;
             border-radius: 12px;
+            margin: 0 auto;
 
             @include media('sp') {
                 flex-direction: column;
@@ -2088,7 +2109,7 @@
             .flow-item {
                 .num {
                     margin-bottom: 1.6rem;
-                    font-family: "DIN 2014";
+                    font-family: "Noto Sans JP";
                     color: #2175D6;
                     width: fit-content;
                     @include media('sp') {

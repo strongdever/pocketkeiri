@@ -1093,7 +1093,7 @@ main.contact-page {
 
 .font-24-600-din {
   color: #333;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 600;
@@ -1103,7 +1103,7 @@ main.contact-page {
 
 .font-28-700-din {
   color: #333;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 2.8rem;
   font-style: normal;
   font-weight: 700;
@@ -1113,7 +1113,7 @@ main.contact-page {
 
 .font-36-700-din {
   color: #333;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 3.6rem;
   font-style: normal;
   font-weight: 700;
@@ -1129,7 +1129,7 @@ main.contact-page {
 
 .font-56-700-din {
   color: #333;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 5.6rem;
   font-style: normal;
   font-weight: 700;
@@ -1139,7 +1139,7 @@ main.contact-page {
 
 .font-60-700-din {
   color: #333;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 6.0rem;
   font-style: normal;
   font-weight: 700;
@@ -2045,8 +2045,24 @@ input[type=checkbox]:checked:before {
 
 @media only screen and (max-width: 768px) {
   .front-page .section3 .container .pocket-graphic-wrapper .btn-wrapper {
-    right: 0;
-    top: 105%;
+    position: relative;
+    margin-bottom: 1.6rem;
+    right: unset;
+    top: unset;
+  }
+}
+
+.front-page .section3 .container .pocket-graphic-wrapper .btn-wrapper-1 {
+  position: absolute;
+  right: 3%;
+  bottom: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .front-page .section3 .container .pocket-graphic-wrapper .btn-wrapper-1 {
+    position: relative;
+    right: unset;
+    bottom: unset;
   }
 }
 
@@ -2271,7 +2287,7 @@ input[type=checkbox]:checked:before {
 
 .front-page .section4 .concepts-wrapper .concept-item {
   width: 100%;
-  padding: 3.2rem;
+  padding: 3.2rem 3.2rem 4.8rem 3.2rem;
   border-radius: 12px;
   background: #F4F4F4;
   text-align: left;
@@ -2279,7 +2295,7 @@ input[type=checkbox]:checked:before {
 
 @media only screen and (max-width: 768px) {
   .front-page .section4 .concepts-wrapper .concept-item {
-    padding: 2.4rem 1.6rem;
+    padding: 2.4rem 1.6rem 4.0rem 1.6rem;
   }
 }
 
@@ -2303,6 +2319,15 @@ input[type=checkbox]:checked:before {
     font-size: 1.4rem;
     line-height: 2.4rem;
   }
+}
+
+.front-page .section4 .concepts-wrapper .concept-item .btn-wrapper {
+  position: absolute;
+  bottom: 2.4rem;
+}
+
+.front-page .section4 .concepts-wrapper .left-item {
+  position: relative;
 }
 
 .front-page .section4 .concepts-wrapper .left-item .question {
@@ -2334,6 +2359,10 @@ input[type=checkbox]:checked:before {
   .front-page .section4 .concepts-wrapper .left-item .payment-schedule {
     margin-bottom: 2.0rem;
   }
+}
+
+.front-page .section4 .concepts-wrapper .right-item {
+  position: relative;
 }
 
 .front-page .section4 .concepts-wrapper .right-item .question {
@@ -3311,7 +3340,7 @@ input[type=checkbox]:checked:before {
   margin-left: -9.7rem;
   white-space: nowrap;
   color: #2175D6;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 6.0rem;
   font-style: normal;
   font-weight: 700;
@@ -3674,7 +3703,7 @@ input[type=checkbox]:checked:before {
       flex-shrink: 0;
   color: #000;
   text-align: center;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: bold;
@@ -3748,7 +3777,7 @@ input[type=checkbox]:checked:before {
   margin-bottom: auto;
   color: #FFF;
   text-align: center;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   font-size: 3.2rem;
   font-style: normal;
   font-weight: bold;
@@ -4062,6 +4091,7 @@ input[type=checkbox]:checked:before {
   max-width: 116rem;
   background: #FFF;
   border-radius: 12px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -4096,7 +4126,7 @@ input[type=checkbox]:checked:before {
 
 .card-pay .flow2 .flow .flow-item .num {
   margin-bottom: 1.6rem;
-  font-family: "DIN 2014";
+  font-family: "Noto Sans JP";
   color: #2175D6;
   width: -webkit-fit-content;
   width: -moz-fit-content;

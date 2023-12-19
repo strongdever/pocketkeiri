@@ -17,7 +17,7 @@
     src: url('DIN2014-DemiBold.eot');
     src: local('DIN 2014 Bold'), local('DIN2014-DemiBold'),
         url('DIN2014-DemiBold.eot?#iefix') format('embedded-opentype'),
-        url('DIN2014-DemiBold.woff') format('woff'),
+        url('DIN2014-Bold.woff') format('woff'),
         url('DIN2014-DemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
