@@ -578,7 +578,7 @@ figure img,
   .contact-header {
     padding: 0;
     width: 100%;
-    height: 5.6rem;
+    height: 8.6rem;
   }
 }
 
@@ -594,6 +594,9 @@ figure img,
 
 @media only screen and (max-width: 768px) {
   .contact-header .header-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     height: 100%;
   }
@@ -606,8 +609,7 @@ figure img,
 @media only screen and (max-width: 768px) {
   .contact-header .header-wrapper .header-logo img {
     padding: 1.4rem 1.6rem;
-    width: 10.1rem;
-    height: 100%;
+    width: 16.2rem;
   }
 }
 
@@ -807,7 +809,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   main {
-    margin-top: 11.5rem;
+    margin-top: 8.6rem !important;
   }
 }
 
@@ -1363,6 +1365,19 @@ main.contact-page {
   -webkit-column-gap: 0.8rem;
      -moz-column-gap: 0.8rem;
           column-gap: 0.8rem;
+  line-height: 2.4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-form .required.company-field {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-form .required.company-field::after {
+  margin-bottom: 0.5rem;
 }
 
 .main-form .required::after {
@@ -1689,9 +1704,7 @@ input[type=checkbox]:checked:before {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 auto;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 100%;
   }
 }
 
@@ -1717,6 +1730,7 @@ input[type=checkbox]:checked:before {
 }
 
 .front-page .rect-yellow {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1745,7 +1759,7 @@ input[type=checkbox]:checked:before {
 @media only screen and (max-width: 768px) {
   .front-page .rect-yellow {
     border-radius: 12px;
-    width: 17.4rem;
+    width: 17.0rem;
     height: 5.6rem;
     font-size: 2.0rem;
   }
@@ -1759,7 +1773,7 @@ input[type=checkbox]:checked:before {
 @media only screen and (max-width: 768px) {
   .front-page .rect-yellow .font-14-400 {
     position: absolute;
-    bottom: 1.6rem;
+    bottom: 0.4rem;
     right: 0.7rem;
     font-size: 1.1rem;
     margin-top: 0;

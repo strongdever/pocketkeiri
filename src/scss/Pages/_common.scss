@@ -2,7 +2,7 @@ main {
     margin-top: 15.8rem;
 
     @include media('sp') {
-        margin-top: 11.5rem;
+        margin-top: 8.6rem !important;
     }
 
     &.contact-page {
@@ -480,6 +480,15 @@ main {
         display: flex;
         align-items: center;
         column-gap: 0.8rem;
+        line-height: 2.4rem;
+        flex-wrap: wrap;
+
+        &.company-field {
+            align-items: flex-end;
+            &::after {
+                margin-bottom: 0.5rem;
+            }
+        }
 
         &::after {
             width: fit-content;

@@ -190,7 +190,7 @@
                     column-gap: 1.1rem;
                     justify-content: center;
                     margin: 0 auto;
-                    width: fit-content;
+                    width: 100%;
                 }
             }
         }
@@ -218,6 +218,7 @@
     }
 
     .rect-yellow {
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -238,7 +239,7 @@
 
         @include media('sp') {
             border-radius: 12px;
-            width: 17.4rem;
+            width: 17.0rem;
             height: 5.6rem;
             font-size: 2.0rem;
         }
@@ -249,7 +250,7 @@
 
             @include media('sp') {
                 position: absolute;
-                bottom: 1.6rem;
+                bottom: 0.4rem;
                 right: 0.7rem;
                 font-size: 1.1rem;
                 margin-top: 0;
